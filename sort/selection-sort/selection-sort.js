@@ -1,10 +1,8 @@
 /**
- * @name 选择排序
- * @description 首先在所有数字中，找出最小的部分，放到队首，然后找到倒数第二小的，放到第二个，以此类推
+ * @name 选择排序 O(n^2)
+ * @description 每一趟从待排序的数据元素中选择最小（或最大）的一个元素作为首元素，直到所有元素排完为止
  * @param {Array} arr 排序数组
  */
-let helper = new Helper(10000,0,10000)
-
 function selectionSort (arr) {
   for (let i = 0; i < arr.length; i++) {
     // 寻找最小的值的索引
@@ -21,4 +19,6 @@ function selectionSort (arr) {
   }
 }
 
+// 算法性能测试
+let helper = new Helper(10000,0,10000)
 helper.testSort(selectionSort)
