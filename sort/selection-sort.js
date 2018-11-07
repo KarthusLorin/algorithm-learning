@@ -1,8 +1,9 @@
-/*
-  选择排序
-  原理：首先在所有数字中，找出最小的部分，放到队首，然后找到倒数第二小的，放到第二个，一次类推
-  复杂度：O(n^2)
+/**
+ * @name 选择排序
+ * @description 首先在所有数字中，找出最小的部分，放到队首，然后找到倒数第二小的，放到第二个，以此类推
+ * @param {Array} arr 排序数组
  */
+let helper = new Helper(10000,0,10000)
 
 function selectionSort (arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -18,8 +19,6 @@ function selectionSort (arr) {
     arr[i] = arr[minIndex]
     arr[minIndex] = temp
   }
-  console.log(arr)
 }
 
-let data = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-selectionSort(data)
+helper.testSort(selectionSort)
