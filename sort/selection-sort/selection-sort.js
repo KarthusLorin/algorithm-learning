@@ -17,6 +17,7 @@ function selectionSort (arr) {
     arr[i] = arr[minIndex]
     arr[minIndex] = temp
   }
+  return arr
 }
 
 // 算法性能测试

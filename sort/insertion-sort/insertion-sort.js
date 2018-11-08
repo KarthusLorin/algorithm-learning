@@ -33,6 +33,7 @@ function advanceInsertionSort (arr) {
     }
     arr[j] = temp
   }
+  return arr
 }
 
 // 算法性能测试
