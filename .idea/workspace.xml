@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744e21cd-49a4-435c-9a0d-74e450227be3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sort/insertion-sort/insertion-sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/selection-sort/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insertion-sort/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/selection-sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/selection-sort/selection-sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/sort/util.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +17,7 @@
     <session id="-437755707">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -29,36 +25,45 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="11" />
-          <entry key="js" value="12" />
+          <entry key="js" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="39" />
-          <entry key="js" value="1849" />
+          <entry key="js" value="1889" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="39" />
-          <entry key="JavaScript" value="1849" />
+          <entry key="JavaScript" value="1889" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/insertion-sort/insertion-sort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="167">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sort/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -91,7 +96,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sort/O(n^2)/selection-sort.js" />
         <option value="$PROJECT_DIR$/sort/uitl.js" />
-        <option value="$PROJECT_DIR$/sort/util.js" />
         <option value="$PROJECT_DIR$/sort/selection-sort.js" />
         <option value="$PROJECT_DIR$/sort/index.html" />
         <option value="$PROJECT_DIR$/sort/insertion-sort.js" />
@@ -99,6 +103,7 @@
         <option value="$PROJECT_DIR$/sort/insertion-sort/index.html" />
         <option value="$PROJECT_DIR$/sort/selection-sort/selection-sort.js" />
         <option value="$PROJECT_DIR$/sort/insertion-sort/insertion-sort.js" />
+        <option value="$PROJECT_DIR$/sort/util.js" />
       </list>
     </option>
   </component>
@@ -194,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541520687063</updated>
       <workItem from="1541520688310" duration="1585000" />
-      <workItem from="1541605348230" duration="3761000" />
+      <workItem from="1541605348230" duration="4259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5346000" />
+    <option name="totallyTimeSpent" value="5844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,7 +217,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="483" y="85" width="1260" height="868" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,13 +244,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sort/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/selection-sort/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -270,8 +267,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/insertion-sort/insertion-sort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="167">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>

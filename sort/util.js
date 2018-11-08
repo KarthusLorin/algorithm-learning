@@ -11,9 +11,9 @@ class Helper {
     }
   }
 
-  isSorted () {
-    for (let i = 0; i < this.arr.length; i++) {
-      if (this.arr[i] > this.arr[i + 1]) {
+  isSorted (arr) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] > arr[i + 1]) {
         return false;
       }
     }
@@ -22,7 +22,8 @@ class Helper {
 
   testSort (cb) {
     console.time('sortTime')
-    let sortArr = cb(this.arr)
+    let copy = this.arr.slice(0)
+    let sortArr = cb(copy)
     console.timeEnd('sortTime')
     if (this.isSorted(sortArr)) {
       console.log('排序成功！')
